@@ -1,0 +1,12 @@
+{
+  "crons": [
+    {
+      "path": "/api/internal/notifications/dispatch",
+      "schedule": "0 0 * * *"
+    },
+    {
+      "path": "/api/internal/draw/publish",
+      "schedule": "0 3 1 * *"
+    }
+  ]
+}
